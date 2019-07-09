@@ -1,0 +1,49 @@
+/* Default font for the document */
+* { font-family: Sans-serif;
+	font-size: 100%;
+} 
+
+header {
+	text-indent: 1em;
+	border-bottom: 3px solid black;
+	background-image: -moz-linear-gradient(45deg, white 0%, blue 75%, navy 100%);
+	background-image: -webkit-linear-gradient(45deg, white 0%, blue 75%, navy 100%);
+	background-image: -o-linear-gradient(45deg, white 0%, blue 75%, navy 100%);
+	background-image: linear-gradient(45deg, white 0%, blue 75%, navy 100%);		
+	padding: 3em;
+} 
+
+header img {
+	float: left;
+	margin-left: 1em;
+}
+header h2 h3 {
+	float: right;
+	padding: 5em;
+	margin: 3em;
+}
+	
+
+body { 
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	width: 800px;
+	margin:0 auto;
+	background-color: white;
+	border: 3px solid black;
+	box-shadow: 5px 5px 10px 10px;
+}
+p {
+	padding-left; 10px;
+}
+footer { 
+	text-align: center;
+	font-size: 90%;
+	border: 3px solid black;
+	border-width: 3px 0 0 0;
+	background-image: -moz-linear-gradient(45deg, white 0%, blue 75%, navy 100%);
+	background-image: -webkit-linear-gradient(45deg, white 0%, blue 75%, navy 100%);
+	background-image: -o-linear-gradient(45deg, white 0%, blue 75%, navy 100%);
+	background-image: linear-gradient(45deg, white 0%, blue 75%, navy 100%); 
+	padding: 1px;
+	clear: both;
+}
